@@ -10,19 +10,23 @@ import Resume from "./resume";
 import Testimonial from "./testimonial";
 import PopularClients from "./popular-clients";
 import ContactForm from "./contact-form";
+import TeamProjects from "./team-projects";
+import AboutMe from "./aboutMe"
 
 export default function Portfolio() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Clients />
-      <Skills />
+      <AboutMe />
+      {/* <Clients />  */}
+      {/* <Skills /> */}
       <Projects />
-      <Resume />
-      <Testimonial />
-      <PopularClients />
-      <ContactForm />
+      <TeamProjects/>
+      {/* <Resume /> */}
+      {/* <Testimonial /> */}
+      {/* <PopularClients /> */}
+      {/* <ContactForm /> */}
       <Footer />
     </>
   );

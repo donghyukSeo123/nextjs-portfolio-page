@@ -5,17 +5,12 @@ import { Typography } from "@material-tailwind/react";
 
 const PROJECTS = [
   {
-    img: "/image/logo1.png",
-    title: "개인 포털사이트 donggle \n( React + Node.js )",
-    desc: "일정관리, 날씨 확인, 택배 조회 같은 다양한 ‘실용적인’ API 기반 서비스들을 통합하는 개인 포털 사이트입니다.",
-    DeployYn :"Y",
+    img: "/image/logo3.png",
+    title: "구인구직 웹사이트 ONESTEP (대덕인재개발원 4인 프로젝트)",
+    desc: "‘ONESTEP’은 구직자에게는 구직과정에 필요한 것을 제공하여 편의성을 도모하고 프리랜서에게 필요한 최소한의 법적 울타리를 제공하고 구인자에게는 지원자의 조건을 항목별로 한 화면에 편리하게 볼 수 있는 프로젝트 입니다.",
+    DeployYn :"N",
   },
-  {
-    img: "/image/logo2.png",
-    title: "온라인 쇼핑몰 DongMarket \n( Spring + Jquery )",
-    desc: "DongMarket은 귀엽고 감각적인 쇼핑몰 플랫폼으로, 누구나 쉽게 상품을 사고팔 수 있도록 만든 웹 서비스입니다.",
-    DeployYn :"Y",
-  },
+  
 ];
 
 export function Projects() {
@@ -23,7 +18,7 @@ export function Projects() {
     <section className="py-28 px-8">
       <div className="container mx-auto mb-20 text-center">
         <Typography variant="h2" color="blue-gray" className="mb-4">
-          개인 프로젝트
+          팀 프로젝트
         </Typography>
         <Typography
           variant="lead"

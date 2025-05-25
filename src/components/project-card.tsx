@@ -11,12 +11,13 @@ interface ProjectCardProps {
   img: string;
   title: string;
   desc: string;
+  DeployYn: string;
 }
 
-export function ProjectCard({ img, title, desc }: ProjectCardProps) {
+export function ProjectCard({ img, title, desc ,DeployYn }: ProjectCardProps) {
   return (
     <Card color="transparent" shadow={false}>
-      <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">
+      <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-38 white-space: pre-line">
         <Image
           src={img}
           alt={title}
@@ -37,9 +38,28 @@ export function ProjectCard({ img, title, desc }: ProjectCardProps) {
         <Typography className="mb-6 font-normal !text-gray-500">
           {desc}
         </Typography>
-        <Button color="gray" size="sm">
-          see details
-        </Button>
+        
+        <div className="flex gap-2">
+          {/* DeployYn이 'Y'일 때만 '바로가기' 버튼 출력 */}
+          {DeployYn === "Y" && (
+            <Button
+              color="gray"
+              size="sm"
+
+            >
+              바로가기
+            </Button>
+          )}
+
+          {/* Git 바로가기 버튼 */}
+          <Button
+            color="blue"
+            size="sm"
+            onClick={() => window.open("", "_blank")}
+          >
+            Git 바로가기
+          </Button>
+        </div>
       </CardBody>
     </Card>
   );
