@@ -1,94 +1,55 @@
-# [NextJS 서동혁의 포트폴리오 Page](http://demos.creative-tim.com/nextjs-tailwind-portfolio-page?ref=readme-ntpp) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page&text=Check%20Material%20Tailwind%202%20Template%20made%20by%20@CreativeTim%20#webdesign%20#template%20#materialdesign%20#react%20https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page)
+# 🧑‍💻 My Portfolio Site
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/nextjs-tailwind-portfolio-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-portfolio-page/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/nextjs-tailwind-portfolio-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-portfolio-page/issues?q=is%3Aissue+is%3Aclosed)
+개인 포트폴리오 웹사이트입니다.  
+Tailwind CSS와 Material Tailwind 기반 템플릿을 커스터마이징하여 제작하였으며,  
+코드 구조 리팩토링 및 UI/UX 개선을 통해 보다 효율적이고 유지보수 가능한 형태로 정비하였습니다.
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/739/original/material-tailwind-react-portfolio-template-thumbnail.jpg?1697615979)
+## 🔧 기술 스택
 
-Introducing Tailwind Portfolio Page, a versatile and stylish portfolio template built on the foundation of Tailwind CSS and Material Tailwind.
+- **Next.js 14 (App Router)**
+- **React 18**
+- **TypeScript**
+- **Tailwind CSS**
+- **@material-tailwind/react**  
+- Mobile First Responsive Design
 
-Are you in search of a professionally designed and highly customizable portfolio web page template tailored for artists, designers, photographers, and creative professionals to showcase their work and establish a strong online presence? Look no further! We are excited to present to you our Free Portfolio Page Template, meticulously crafted to cater to the needs of portfolio website developers like you.
+---
 
-This template, designed with Tailwind CSS and Material Tailwind, offers effortless customization to align perfectly with your website's unique branding. The free portfolio template boasts essential features such as hero, logo, testimonial, and features sections.
+## 🛠️ 주요 작업 내역
 
-**Documentation built by Developers**
+### 1. 템플릿 커스터마이징
+- Material Tailwind 기반 무료 템플릿을 다운로드 받아 **컴포넌트 단위로 분해 및 재조립**하였습니다.
+- 필요 없는 섹션 제거, 필요한 정보 위주로 순서 재배치하여 정보 전달력을 강화했습니다.
 
-Each element is well presented in very complex documentation. 
+### 2. 컴포넌트 분리 및 재사용성 향상
+- `AboutMe`, `Career`, `Project`, `Contact` 등 **섹션별 컴포넌트를 독립적으로 분리**하여 구조화.
+- 각 컴포넌트는 재사용 가능하도록 props 구조 정리 및 Tailwind 기반 반응형 레이아웃 적용.
 
-You can read more about the [documentation here](https://www.material-tailwind.com/docs/react/installation).
+### 3. 사용자 경험 중심 개선
+- 모바일 및 태블릿 환경에서도 **자연스러운 레이아웃** 유지되도록 반응형 디자인 적용.
+- Typography 및 색상 조합 개선을 통해 **가독성 향상**.
+- 이모지 및 시각적 요소 적절히 사용하여 **친근한 인상 부여**.
 
-**HELPFUL LINKS**
+## ✨ 주요 섹션
 
-- View [Github Repository](https://github.com/creativetimofficial/nextjs-tailwind-portfolio-page)
-- Check [FAQ Page](https://www.creative-tim.com/faq)
+| 섹션 | 설명 |
+|------|------|
+| 🧑‍💼 About Me | 이름, 생년월일(띠 포함 🐂), 연락처, 이메일 등 기본 정보 |
+| 💼 Career | 기술 경력 및 주요 업무 경험 (MRO 시스템, 중계 서버 등 포함) |
+| 🛠️ Skills/Projects | 사용 기술 및 프로젝트 사례 (예정) |
 
-## [Demo](https://creative-tim.com/product/nextjs-tailwind-portfolio-page)
 
-## Quick start
 
-Quick start options:
+## 🚀 향후 계획
 
-- Download from [Creative Tim](https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page?ref=readme-ntpp).
+- Project 섹션 추가 및 포트폴리오 등록 기능 구현
+- GitHub Actions를 이용한 CI/CD 구성
+- 다크모드 지원
 
-## Terminal Commands
+---
 
-1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
-2. Navigate to the root ./ directory of the product and run `npm install` to install our local dependencies.
+## 💬 기타
 
-## Documentation
-
-The documentation for the Material Dashboard is hosted at our [website](https://www.material-tailwind.com/docs/react/installation?ref=readme-ntpp).
-
-## Browser Support
-
-At present, we officially aim to support the last two versions of the following browsers:
-
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
-
-## Resources
-
-- [Live Preview](https://demos.creative-tim.com/nextjs-tailwind-portfolio-page?ref=readme-ntpp)
-- [Download Page](https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page?ref=readme-ntpp)
-- Documentation is [here](https://www.material-tailwind.com/docs/react/installation?ref=readme-ntpp)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-ntpp)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-ntpp)
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/nextjs-tailwind-portfolio-page/issues)
-- [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
-
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the Nextjs + Tailwind Portfolio Page. Here are some advices for our users that want to report an issue:
-
-1. Make sure that you are using the latest version of the Nextjs + Tailwind Portfolio Page. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page?ref=readme-ntpp).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
-
-## Technical Support or Questions
-
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-ntpp) instead of opening an issue.
-
-## Licensing
-
-- Copyright 2023 [Creative Tim](https://www.creative-tim.com?ref=readme-ntpp)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-ntpp)
-
-## Useful Links
-
-- [More products](https://www.creative-tim.com/templates?ref=readme-ntpp) from Creative Tim
-
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-ntpp) from Creative Tim
-
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-ntpp) (earn money)
-
-##### Social Media
-
-Twitter: <https://twitter.com/CreativeTim>
-
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://instagram.com/creativetimofficial>
+이 포트폴리오는 실무 기반 경험과 꾸준한 개선 역량을 보여주기 위해 만들었습니다.  
+코드 개선과 사용자 중심 설계에 집중했으며, 단순히 예쁘기만 한 사이트가 아니라  
+**의도와 구조를 설명할 수 있는 개발자 포트폴리오**를 지향합니다.
