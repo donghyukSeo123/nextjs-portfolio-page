@@ -2,6 +2,7 @@
 
 import { ProjectCard } from "@/components";
 import { Typography } from "@material-tailwind/react";
+import { renderWithLineBreaks } from "../components/utils";
 
 const PROJECTS = [
   {

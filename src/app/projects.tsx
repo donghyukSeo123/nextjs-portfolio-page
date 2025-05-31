@@ -2,8 +2,15 @@
 
 import { ProjectCard } from "@/components";
 import { Typography } from "@material-tailwind/react";
+import { renderWithLineBreaks } from "../components/utils";
 
 const PROJECTS = [
+  {
+    img: "/image/logo2.png",
+    title: "서동혁의 포트폴리오사이트",
+    desc: "DongMarket은 귀엽고 감각적인 쇼핑몰 플랫폼으로, 누구나 쉽게 상품을 사고팔 수 있도록 만든 웹 서비스입니다.",
+    DeployYn :"Y",
+  },
   {
     img: "/image/logo1.png",
     title: "개인 포털사이트 donggle \n( React + Node.js )",
@@ -12,10 +19,11 @@ const PROJECTS = [
   },
   {
     img: "/image/logo2.png",
-    title: "온라인 쇼핑몰 DongMarket \n( Spring + Jquery )",
+    title:  "온라인 쇼핑몰 DongMarket \n( Spring + Jquery )",
     desc: "DongMarket은 귀엽고 감각적인 쇼핑몰 플랫폼으로, 누구나 쉽게 상품을 사고팔 수 있도록 만든 웹 서비스입니다.",
     DeployYn :"Y",
   },
+  
 ];
 
 export function Projects() {
@@ -31,7 +39,7 @@ export function Projects() {
         >
         </Typography>
       </div>
-      <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4 white-space: pre-line">
+      <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">
         {PROJECTS.map((props, idx) => (
           <ProjectCard key={idx} {...props} />
         ))}

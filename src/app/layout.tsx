@@ -16,6 +16,8 @@ export const metadata: Metadata = {
     "Introducing Tailwind Portfolio Page, a versatile and stylish portfolio template built on the foundation of Tailwind CSS and Material Tailwind.",
 };
 
+
+
 export default function RootLayout({
   children,
 }: {
