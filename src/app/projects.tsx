@@ -7,21 +7,27 @@ import { renderWithLineBreaks } from "../components/utils";
 const PROJECTS = [
   {
     img: "/image/logo2.png",
-    title: "서동혁의 포트폴리오사이트",
-    desc: "DongMarket은 귀엽고 감각적인 쇼핑몰 플랫폼으로, 누구나 쉽게 상품을 사고팔 수 있도록 만든 웹 서비스입니다.",
+    title: "서동혁의 포트폴리오 사이트 \n( React + Node.js )",
+    desc: "경력과 프로젝트 경험, 기술 스택을 소개하기 위해 React 기반 프론트엔드와 Node.js 백엔드를 활용해 제작한 포트폴리오 웹사이트입니다.",
     DeployYn :"Y",
+    gitAdress :"https://github.com/donghyukSeo123/nextjs-portfolio-page.git",
+    adress : "",
   },
   {
     img: "/image/logo1.png",
     title: "개인 포털사이트 donggle \n( React + Node.js )",
     desc: "일정관리, 날씨 확인, 택배 조회 같은 다양한 ‘실용적인’ API 기반 서비스들을 통합하는 개인 포털 사이트입니다.",
     DeployYn :"Y",
+    gitAdress :"https://github.com/donghyukSeo123/donggle-potal.git",
+    adress : "",
   },
   {
     img: "/image/logo2.png",
     title:  "온라인 쇼핑몰 DongMarket \n( Spring + Jquery )",
     desc: "DongMarket은 귀엽고 감각적인 쇼핑몰 플랫폼으로, 누구나 쉽게 상품을 사고팔 수 있도록 만든 웹 서비스입니다.",
     DeployYn :"Y",
+    gitAdress :"",
+    adress : "",
   },
   
 ];

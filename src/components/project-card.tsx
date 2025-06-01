@@ -12,9 +12,11 @@ interface ProjectCardProps {
   title: string;
   desc: string;
   DeployYn: string;
+  gitAdress : string;
+  adress : string;
 }
 
-export function ProjectCard({ img, title, desc ,DeployYn }: ProjectCardProps) {
+export function ProjectCard({ img, title, desc ,DeployYn , gitAdress ,adress }: ProjectCardProps) {
   return (
     <Card color="transparent" shadow={false}>
       <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-38 white-space: pre-line">
@@ -23,10 +25,11 @@ export function ProjectCard({ img, title, desc ,DeployYn }: ProjectCardProps) {
           alt={title}
           width={768}
           height={768}
+          
           className="h-full w-full object-cover"
         />
       </CardHeader>
-      <CardBody className="p-0">
+      <CardBody className="p-0">        
         <a
           href="#"
           className="text-blue-gray-900 transition-colors hover:text-gray-800"
@@ -44,8 +47,8 @@ export function ProjectCard({ img, title, desc ,DeployYn }: ProjectCardProps) {
           {DeployYn === "Y" && (
             <Button
               color="gray"
-              size="sm"
-
+              size="sm" 
+              onClick={() => window.open(adress, "_blank")}
             >
               바로가기
             </Button>
@@ -55,7 +58,7 @@ export function ProjectCard({ img, title, desc ,DeployYn }: ProjectCardProps) {
           <Button
             color="blue"
             size="sm"
-            onClick={() => window.open("", "_blank")}
+            onClick={() => window.open(gitAdress, "_blank")}
           >
             Git 바로가기
           </Button>

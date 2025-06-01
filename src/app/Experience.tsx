@@ -36,7 +36,7 @@ const experiences = [
         ],
       },
       {
-        text: "신규 고객사 영업용 데모서버 ( DEMO MRO ) 시스템 개발",
+        text: "영업팀 신규 고객사 영업용 데모서버 ( DEMO MRO ) 시스템 개발",
         subDetails: ["영업팀에서 신규 고객사를 대상으로 한 영업 시 MRO 쇼핑몰과 기관 통합관리시스템 연계를쉽게 설명할 수 있도록 DEMO 서버를 구현", 
           "구매 과정에서 발생하는 각종 구매 관련 보고서(세금계산서 등)를 DB에서 데이터를 추출하여 자동 생성하는 타사 솔루션 AI REPORT 툴 사용 방법을 학습하고 이를 구현",
         ],
@@ -49,8 +49,9 @@ const experiences = [
         ],
       },
       {
-        text: "운영부서 배송,정산 업무 관련 문제 해결경험",
-        subDetails: [""
+        text: "쇼핑몰 주문의 납기일, 지체상금 에 대한 자동 입력 프로세스 제안 및 구현",
+        subDetails: ["운영팀에서는 발주나 납기 관리 시 납기일을 수기로 계산하고 있었고, 주말이나 공휴일을 고려하지 않아 실수가 발생하거나, 반복적인 계산에 많은 시간이 소요되던 상황",
+           "예상납기일, 지체상금 업데이트 프로세스 자동화를 제안","일 배치로 공공API 활용하여 공휴일을 업데이트 (실시간 대비 트래픽을 최소화하고 서비스 안정성 확보 ), 기존 수동으로 사용하던 지체상금 계산식 적용 ", "업무 자동화로 인한 효율 향상과 실수 감소라는 두 가지 효과를 동시에 달성"
         ],
       },
       
@@ -64,7 +65,7 @@ export const Experience = () => {
   return (
     <div className="container mt-20 mx-auto mb-20 text-center">
       <Typography variant="h2" color="blue-gray" className="mb-4 text-center">
-        경력
+        경력 
       </Typography>
       <div className="space-y-4">
         {experiences.map((exp, index) => (
