@@ -19,7 +19,7 @@ interface ExperienceItemProps {
 
 
 export const ExperienceItem = ({ period, title, details }: ExperienceItemProps) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const [openSubIndexes, setOpenSubIndexes] = useState<number[]>([]);
 
 
