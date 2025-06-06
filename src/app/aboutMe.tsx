@@ -10,11 +10,6 @@ export default function AboutMe() {
         <Typography variant="h2" color="blue-gray" className="mb-4">
           About  Me
         </Typography>
-        <Typography
-          variant="lead"
-          className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
-        >
-        </Typography>
       </div>
       <Card className="w-full p-8 flex flex-col items-center gap-6 shadow-lg">
         <Avatar

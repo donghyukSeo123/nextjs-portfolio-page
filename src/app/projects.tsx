@@ -39,11 +39,6 @@ export function Projects() {
         <Typography variant="h2" color="blue-gray" className="mb-4">
           개인 프로젝트
         </Typography>
-        <Typography
-          variant="lead"
-          className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
-        >
-        </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">
         {PROJECTS.map((props, idx) => (

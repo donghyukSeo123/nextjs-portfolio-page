@@ -15,21 +15,14 @@ function Hero() {
           >
             끈기와 열정으로  <br />  끝까지 해내는 개발자 <br />  서동혁입니다!
           </Typography>
-          <Typography
+          <Typography 
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
             “다양한 문제를 마주하며 해결해나가고,
             꾸준한 자기 계발로 성장하는 데 최선을 다하는 개발자입니다.”
 
-          </Typography>
-          <div className="grid">
-            <Typography
-              variant="small"
-              className="mb-2 text-gray-900 font-medium"
-            >
-            </Typography>
-          </div>
+          </Typography>         
         </div>
         <Image
           width={354}
