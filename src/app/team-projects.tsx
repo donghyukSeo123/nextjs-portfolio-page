@@ -6,8 +6,8 @@ import { Typography } from "@material-tailwind/react";
 const PROJECTS = [
   {
     img: "/image/logo3.png",
-    title: "구인구직 웹사이트 ONESTEP (대덕인재개발원 4인 프로젝트)",
-    desc: "‘ONESTEP’은 구직자에게는 구직과정에 필요한 것을 제공하여 편의성을 도모하고 프리랜서에게 필요한 최소한의 법적 울타리를 제공하고 구인자에게는 지원자의 조건을 항목별로 한 화면에 편리하게 볼 수 있는 프로젝트 입니다.",
+    title: "대덕인재개발원 4인 프로젝트 구인구직 웹사이트 ONESTEP (Spring + JavaScript)",
+    desc: "TA, DA를 맡았으며 데이터베이스 설계와 담당한 기능에대한 다양한 API를 접목시켰습니다.",
     DeployYn :"N",
     gitAdress :"https://github.com/donghyukSeo123/DDIT-Final-Project---One-Step-.git",
     adress : "",

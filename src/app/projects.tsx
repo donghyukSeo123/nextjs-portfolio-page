@@ -6,8 +6,8 @@ import { Typography } from "@material-tailwind/react";
 const PROJECTS = [
   {
     img: "/image/logo2.png",
-    title: "서동혁의 포트폴리오 사이트 \n( React + Node.js )",
-    desc: "경력과 프로젝트 경험, 기술 스택을 소개하기 위해 React 기반 프론트엔드와 Node.js 백엔드를 활용해 제작한 포트폴리오 웹사이트입니다.",
+    title: "서동혁의 포트폴리오 사이트 \n( React + Next.js )",
+    desc: "경력과 프로젝트 경험, 기술 스택을 소개하기 위해 React 기반 프론트엔드와 Next.js를 활용해 제작한 포트폴리오 웹사이트입니다. Vercel을 통한 배포까지 진행했습니다.",
     DeployYn :"Y",
     gitAdress :"https://github.com/donghyukSeo123/nextjs-portfolio-page.git",
     adress : "",
@@ -23,7 +23,7 @@ const PROJECTS = [
   {
     img: "/image/logo2.png",
     title:  "온라인 쇼핑몰 DongMarket \n( Spring + Jquery )",
-    desc: "DongMarket은 귀엽고 감각적인 쇼핑몰 플랫폼으로, 누구나 쉽게 상품을 사고팔 수 있도록 만든 웹 서비스입니다.",
+    desc: "",
     DeployYn :"Y",
     gitAdress :"",
     adress : "",
