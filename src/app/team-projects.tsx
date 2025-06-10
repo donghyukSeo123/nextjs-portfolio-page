@@ -11,6 +11,8 @@ const PROJECTS = [
     DeployYn :"N",
     gitAdress :"https://github.com/donghyukSeo123/DDIT-Final-Project---One-Step-.git",
     adress : "",
+    Progress : "",
+    ProgressFlag : true,
   },
   
 ];

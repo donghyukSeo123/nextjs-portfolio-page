@@ -14,9 +14,10 @@ interface ProjectCardProps {
   DeployYn: string;
   gitAdress : string;
   adress : string;
+  Progress : string;
 }
 
-export function ProjectCard({ img, title, desc ,DeployYn , gitAdress ,adress }: ProjectCardProps) {
+export function ProjectCard({ img, title, desc ,DeployYn , gitAdress ,adress, Progress, ProgressFlag }: ProjectCardProps) {
   return (
     <Card color="transparent" shadow={false}>
       <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-38 white-space: pre-line">
@@ -37,6 +38,11 @@ export function ProjectCard({ img, title, desc ,DeployYn , gitAdress ,adress }: 
           <Typography variant="h5" className="mb-2">
             {title}
           </Typography>
+          {Progress !== "" && (
+              <Typography variant="h5" className="mb-2 text-red-500" >
+                ({Progress})
+              </Typography>
+          )}
         </a>
         <Typography className="mb-6 font-normal !text-gray-500">
           {desc}
@@ -54,14 +60,17 @@ export function ProjectCard({ img, title, desc ,DeployYn , gitAdress ,adress }: 
             </Button>
           )}
 
-          {/* Git 바로가기 버튼 */}
-          <Button
+          {ProgressFlag && (
+            <Button
             color="blue"
             size="sm"
             onClick={() => window.open(gitAdress, "_blank")}
-          >
-            Git 바로가기
-          </Button>
+            >
+              Git 바로가기
+            </Button>
+          )}
+          
+          
         </div>
       </CardBody>
     </Card>
