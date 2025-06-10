@@ -37,14 +37,8 @@ Tailwind CSS와 Material Tailwind 기반 템플릿을 커스터마이징하여 �
 | 🧑‍💼 About Me | 이름, 생년월일, 연락처, 이메일 등 기본 정보 |
 | 💼 Career | 기술 경력 및 주요 업무 경험 
 | 🛠️ Skills/Projects | 사용 기술 및 프로젝트 사례 (예정) |
+| 🧪 Experience	실무 프로젝트 및 개발 사례 (업데이트 예정) | 
 
-
-
-## 🚀 향후 계획
-
-- Project 섹션 추가 및 포트폴리오 등록 기능 구현
-- GitHub Actions를 이용한 CI/CD 구성
-- 다크모드 지원
 
 ---
 
