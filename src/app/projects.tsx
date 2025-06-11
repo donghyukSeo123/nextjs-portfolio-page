@@ -10,7 +10,7 @@ const PROJECTS = [
     desc: "경력과 프로젝트 경험, 기술 스택을 소개하기 위해 React 기반 프론트엔드와 Next.js를 활용해 제작한 포트폴리오 웹사이트입니다. Vercel을 통한 배포까지 진행했습니다.",
     DeployYn :"Y",
     gitAdress :"https://github.com/donghyukSeo123/nextjs-portfolio-page.git",
-    adress : "",
+    adress : "#",
     Progress : "",
     ProgressFlag : true,
   },
