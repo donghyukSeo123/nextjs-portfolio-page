@@ -21,7 +21,7 @@ const PROJECTS = [
     DeployYn :"N",
     gitAdress :"https://github.com/donghyukSeo123/donggle-potal.git",
     adress : "",
-    Progress : "8월 개발 예정",
+    Progress : "개발 진행중",
     ProgressFlag : true,
   },
   {
