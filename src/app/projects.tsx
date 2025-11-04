@@ -16,24 +16,24 @@ const PROJECTS = [
   },
   {
     img: "/image/logo1.png",
-    title: "개인 포털사이트 donggle \n( React + Node.js )",
-    desc: "일정관리, 날씨 확인, 택배 조회 같은 다양한 ‘실용적인’ API 기반 서비스들을 통합하는 개인 포털 사이트입니다.",
+    title: "Pick Score (픽 스코어)",
+    desc: "사용자 간 스포츠 경기 결과를 예측하고 포인트를 베팅하는 플랫폼입니다.",
     DeployYn :"N",
     gitAdress :"https://github.com/donghyukSeo123/donggle-potal.git",
     adress : "",
-    Progress : "개발 진행중",
+    Progress : "",
     ProgressFlag : true,
   },
-  {
-    img: "/image/logo2.png",
-    title:  "온라인 쇼핑몰 DongMarket \n( Spring + Jquery )",
-    desc: "상품 등록부터 구매, 결제 프로세스까지 구현한 쇼핑몰 프로젝트입니다.",
-    DeployYn :"N",
-    gitAdress :"",
-    adress : "",
-    Progress : "개발 예정",
-    ProgressFlag : false,
-  },
+  // {
+  //   img: "/image/logo2.png",
+  //   title:  "온라인 쇼핑몰 DongMarket \n( Spring + Jquery )",
+  //   desc: "상품 등록부터 구매, 결제 프로세스까지 구현한 쇼핑몰 프로젝트입니다.",
+  //   DeployYn :"N",
+  //   gitAdress :"",
+  //   adress : "",
+  //   Progress : "개발 예정",
+  //   ProgressFlag : false,
+  // },
   
 ];
 
